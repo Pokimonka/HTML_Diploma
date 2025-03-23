@@ -636,6 +636,8 @@ body {
 }
 
 .article-img-container {
+	min-width: 387px;
+	min-height: 300px;
 	margin-right: 25px;
 }
 
@@ -920,6 +922,8 @@ body {
 	font-size: 12px;
 	color: #b59f5b;
 	font-weight: bold;
+	vertical-align: super;
+    font-size: smaller;
 }
 
 @media screen and (min-width: 641px) and (max-width: 1199px) {
